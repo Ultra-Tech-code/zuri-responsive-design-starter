@@ -1,0 +1,47 @@
+
+@media(max-width: 500px){
+    div.nav-bar{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    ul.nav-links {
+        justify-content: center;
+    }
+
+    div.logo{
+        padding-bottom: 1rem;
+    }
+
+    div.hero-section{
+        padding: 10rem 2rem;
+    }
+    div.background{
+        height: 350px;
+
+    }
+    div.hero-background-pos{
+        display: none;
+    }
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    div.footer-input {
+        flex-direction: column;
+        
+    }
+    input[type="text"]{
+        margin: 20px;
+        width: 50%;
+    }
+    input[type="email"]{
+        margin: 20px;
+        width: 50%;
+
+    }
+
+
+
+}
